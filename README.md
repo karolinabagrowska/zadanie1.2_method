@@ -1,0 +1,1 @@
+# zadanie1.2_method
