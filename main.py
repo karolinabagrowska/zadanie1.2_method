@@ -10,15 +10,15 @@ def method_get():
 def method_put():
     return {"method": "PUT"}
 
-@app.delete("method")
+@app.delete("/method")
 def method_delete():
     return {"method": "DELETE"}
 
-@app.options("method")
+@app.options("/method")
 def method_options():
     return {"method": "OPTIONS"}
 
-@app.post("method", status_code=201)
+@app.post("/method", status_code=201)
 def method_post():
     return {"method": "POST"}
     
